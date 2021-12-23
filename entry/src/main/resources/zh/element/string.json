@@ -11,6 +11,14 @@
     {
       "name": "mainability_HelloWorld",
       "value": "你好，世界"
+    },
+    {
+      "name": "widget_title",
+      "value": "标题"
+    },
+    {
+      "name": "widget_introduction",
+      "value": "介绍"
     }
   ]
 }

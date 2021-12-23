@@ -64,6 +64,11 @@
         ],
         "launchType": "standard"
       }
+    ],
+    "reqPermissions": [
+      {
+        "name": "ohos.permission.DISTRIBUTED_DATASYNC"
+      }
     ]
   }
 }
