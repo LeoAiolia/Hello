@@ -5,13 +5,13 @@ apply plugin: 'com.huawei.ohos.app'
 ohos {
     signingConfigs {
         debug {
-            storeFile file('/Users/dev-yxr/.ohos/config/auto_debug_10086000032332026.p12')
-            storePassword '00000018680552E00C303325C27C1084943E8AB9519961EB409EC5150782063C68677B2985FC6732'
+            storeFile file('/Users/dev-yxr/.ohos/config/auto_debug_hello_10086000032332026.p12')
+            storePassword '000000180864B892E3DAF4F8FB3E85DCCFE2224CE884F17AC826E0F4B276210A4548C8CCA66E3ACD'
             keyAlias = 'debugKey'
-            keyPassword '000000188C75070E39189BFD5B7C1A7C5568FE41BE049C7E42E13392A32C20F39194A23B59A86E73'
+            keyPassword '00000018C1F398E6A359F070FC6DEACBC955B92531D82F23073C68849E5EFA6A61CDBC3B275EC7BB'
             signAlg = 'SHA256withECDSA'
             profile file('/Users/dev-yxr/.ohos/config/auto_debug_hello_10086000032332026.p7b')
-            certpath file('/Users/dev-yxr/.ohos/config/auto_debug_10086000032332026.cer')
+            certpath file('/Users/dev-yxr/.ohos/config/auto_debug_hello_10086000032332026.cer')
         }
     }
     compileSdkVersion 5
